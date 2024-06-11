@@ -27,3 +27,6 @@
 - Axios
 - Bootstrap
 - Font-Awesome
+
+## How to deploy backend 
+npx hardhat run scripts/deploy.js --network private

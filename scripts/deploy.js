@@ -6,7 +6,7 @@ async function main() {
 
   await create.deployed();
 
-  console.log("Lock with 1 ETH deployed to:", create.address);
+  console.log("Address:", create.address);
 }
 
 main().catch((error) => {
