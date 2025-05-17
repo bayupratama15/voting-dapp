@@ -9,8 +9,8 @@ module.exports = {
       chainId: 31337,
     },
     private : {
-      url: "http://5.189.141.90:9655/",
-      accounts : ["ee110824c3451b3471365383f4aa462f8e4266e7e306930845a24ebc8b7d0601"]
+      url: "http://84.46.241.50:9655/",
+      accounts : ["2ec4c1b1d7e0fb58ac08c8b8a342edc074032de2460a44cc33cd8810d59053a1"]
     }
   },
 };

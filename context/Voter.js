@@ -44,6 +44,21 @@ export const VotingProvider = ({ children }) => {
     }
   };
 
+  // check network http://84.46.241.50:9655/
+
+  useEffect(() => {
+    checkIfWalletIsConnected();
+    const { ethereum } = window;
+
+    if (ethereum) {
+      ethereum.on("accountsChanged", (accounts) => {
+        setCurrentAccount(accounts[0]);
+        console.log("Connected 3", accounts[0]);
+        getAllVoterData();
+      });
+    }
+  }, []);
+
   // ===========================================================
   //CONNECT WELATE
   const connectWallet = async () => {
@@ -258,6 +273,9 @@ export const VotingProvider = ({ children }) => {
 
     //---------ALL CANDIDATE
     const allCandidate = await contract.getCandidate();
+    if (!allCandidate)
+      return setError("No Candidate Found, Please Add Candidate");
+    
     console.log("allCandidate", allCandidate);
 
     //--------CANDIDATE DATA
