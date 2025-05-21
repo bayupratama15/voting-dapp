@@ -86,9 +86,9 @@ export const VotingProvider = ({ children }) => {
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: `48eebbe2e201f489a505`,
+            pinata_api_key: `2b11bbe258f91394faac`,
             pinata_secret_api_key: `
-            d2260dd3c16ec1e7b87d9346c082b4dbd39098d49b70e5bce7c15573a9c8bcf9`,
+            3729d1f4db46450bc67976ce961e9058f4737ccc83aadb91c320295538a96db5`,
             "Content-Type": "multipart/form-data",
           },
         });
@@ -112,9 +112,9 @@ export const VotingProvider = ({ children }) => {
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: `48eebbe2e201f489a505`,
+            pinata_api_key: `2b11bbe258f91394faac`,
             pinata_secret_api_key: `
-            d2260dd3c16ec1e7b87d9346c082b4dbd39098d49b70e5bce7c15573a9c8bcf9`,
+            3729d1f4db46450bc67976ce961e9058f4737ccc83aadb91c320295538a96db5`,
             "Content-Type": "multipart/form-data",
           },
         });
@@ -149,9 +149,9 @@ export const VotingProvider = ({ children }) => {
         url: "https://api.pinata.cloud/pinning/pinJSONToIPFS",
         data: data,
         headers: {
-          pinata_api_key: `48eebbe2e201f489a505`,
+          pinata_api_key: `2b11bbe258f91394faac`,
           pinata_secret_api_key: `
-        d2260dd3c16ec1e7b87d9346c082b4dbd39098d49b70e5bce7c15573a9c8bcf9`,
+        3729d1f4db46450bc67976ce961e9058f4737ccc83aadb91c320295538a96db5`,
           "Content-Type": "application/json",
         },
       });
@@ -243,9 +243,9 @@ export const VotingProvider = ({ children }) => {
       url: "https://api.pinata.cloud/pinning/pinJSONToIPFS",
       data: data,
       headers: {
-        pinata_api_key: `48eebbe2e201f489a505`,
+        pinata_api_key: `2b11bbe258f91394faac`,
         pinata_secret_api_key: `
-      d2260dd3c16ec1e7b87d9346c082b4dbd39098d49b70e5bce7c15573a9c8bcf9`,
+      3729d1f4db46450bc67976ce961e9058f4737ccc83aadb91c320295538a96db5`,
         "Content-Type": "application/json",
       },
     });
