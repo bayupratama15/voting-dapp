@@ -3,5 +3,5 @@
 import voting from "./Create.json";
 
 // export const VotingAddress = "0x44179eFc89A216B7E938Ccbe22E7878dAa489709";
-export const VotingAddress = "0x108516f88e12DBcD5eC37348B639f4c80bBC0ACD";
+export const VotingAddress = "0x9cdcD9BfA7D52c83d0B332acFD08F430d4A184A0";
 export const VotingAddressABI = voting.abi;
